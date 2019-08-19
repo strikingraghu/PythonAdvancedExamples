@@ -16,4 +16,6 @@ print("Printing Appended Array:", one_array)
 print()
 
 one_array.pop()  # Removing last element from an Array
-print("Printing Array [After Pop()]:", one_array)
+print("Printing Array [After pop()]:", one_array)
+one_array.remove(55)  # Remove the first occurrence of the value mentioned in its argument
+print("Printing Array [After remove()]:", one_array)
