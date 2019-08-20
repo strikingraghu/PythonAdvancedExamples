@@ -15,7 +15,7 @@ one_array.append(100)  # Appending an Array in Python
 print("Printing Appended Array:", one_array)
 print()
 
-# one_array.insert(12, 100)
+one_array.insert(14, 100)
 print("Printing Array Length:", one_array.__len__())
 
 one_array.pop()  # Removing last element from an Array
