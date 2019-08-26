@@ -23,3 +23,17 @@ print(func_2)
 # lambda
 func1 = lambda x: x ** 5
 print(func1(2))
+
+# few more examples
+
+
+def calculate_factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return x * calculate_factorial(x-1)
+
+
+sample_value = 8  # Testing function!
+print("Processed Factorial Function =", calculate_factorial(sample_value))  # 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1
+
