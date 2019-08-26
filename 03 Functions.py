@@ -21,5 +21,5 @@ func_2()
 print(func_2)
 
 # lambda
-sample_lambda = lambda x: x ** 5
-print(sample_lambda(2))
+func1 = lambda x: x ** 5
+print(func1(2))
