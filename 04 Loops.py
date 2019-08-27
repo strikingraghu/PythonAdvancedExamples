@@ -1,6 +1,6 @@
 """ Loops """
 
-
+# while loop
 min_length = 2
 while True:
     get_name = input("Enter your name ")
@@ -9,3 +9,12 @@ while True:
         break
     else:
         print("Provide a proper name!")
+
+
+# continue loop
+start_point = 0
+while start_point < 10:
+    start_point += 1
+    if start_point % 2 == 0:
+        continue
+    print("Executing Continue Loop :", start_point)
