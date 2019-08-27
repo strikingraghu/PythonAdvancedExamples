@@ -1,5 +1,6 @@
 """ Loops """
 
+
 # while loop
 min_length = 2
 while True:
@@ -18,3 +19,16 @@ while start_point < 10:
     if start_point % 2 == 0:
         continue
     print("Executing Continue Loop :", start_point)
+
+
+# another sample
+list_1 = [1, 3, 5, 7]
+validate = 10
+current_index = 0
+while current_index < len(list_1):
+    if list_1[current_index] == validate:
+        break
+    current_index += 1
+else:
+    list_1.append(validate)
+print("Results :", list_1)

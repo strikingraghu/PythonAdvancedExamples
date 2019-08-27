@@ -20,6 +20,7 @@ def func_3():
 func_2()
 print(func_2)
 
+
 # lambda
 func1 = lambda x: x ** 5
 print(func1(2))
@@ -36,4 +37,3 @@ def calculate_factorial(x):
 
 sample_value = 8  # Testing function!
 print("Processed Factorial Function =", calculate_factorial(sample_value))  # 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1
-

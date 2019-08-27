@@ -1,5 +1,6 @@
 """ Multi-Line Statements """
 
+
 # samples
 
 a = [1, 2, 3]  # Normal way of creating a list
@@ -30,6 +31,7 @@ def my_func(param_a,  # comment
 x = '''This is 'x'
 defined in python code'''
 print(x)
+
 
 # we can simply use \ to merge both lines to one line statement
 y = '''This is 'y' defined in this code to show all the variations available in python language \
