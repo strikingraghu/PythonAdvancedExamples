@@ -32,3 +32,20 @@ while current_index < len(list_1):
 else:
     list_1.append(validate)
 print("Results :", list_1)
+
+
+# another sample
+var_one = 0
+var_two = 2
+while var_one < 4:
+    var_one += 1
+    var_two -= 1
+
+    try:
+        var_one / var_two
+    except ZeroDivisionError:
+        print("{0}, {1} - Division by 0".format(var_one, var_two))
+        continue
+    finally:
+        print("{0}, {1} - Always executes!".format(var_one, var_two))
+    print("{0}, {1} - Main loop!".format(var_one, var_two))
