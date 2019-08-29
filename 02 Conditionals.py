@@ -15,8 +15,11 @@ else:
 # ternary operator
 a, b = 10, 20
 get_output = a if a < b else b
-print(get_output)
+print("Ternary Output :", get_output)
 
+age = 12
+results = "Minor" if age < 21 else "Adult"
+print("Ternary Output :", results)
 
 another_output = ({True: a, False: b}[a < b])
-print(another_output)
+print("Ternary Output :", another_output)
