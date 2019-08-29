@@ -78,3 +78,17 @@ for sample3 in range(1, 35):
         print("Multiple of 7 found in this code!")
 else:
     print("Multiple of 7 not found in this code!")
+
+
+# another sample
+string_sample = 'WOW!16CharacterZ'
+loop_count = 0
+for each_element in string_sample:
+    print("Loop Count # =", loop_count, "|", "Value =", each_element)
+    loop_count += 1
+
+
+# another sample (Note Changes/Improvisation)
+sample4 = "WOW!16CharacterZ"
+for curr_index, curr_index_val in enumerate(sample4):
+    print("Index =", curr_index, "|", "Value =", curr_index_val)
